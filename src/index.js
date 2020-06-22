@@ -183,7 +183,7 @@ export default (container, options) => {
 
 	const handlePointerDown = (event) => {
 		let handle;
-		if (event.button === 0 && (handle = event.target.closest(handleSelector))) {
+		if (!element && event.button === 0 && (handle = event.target.closest(handleSelector))) {
 			event.preventDefault();
 			element = handle.closest(selector);
 			const r = element.getBoundingClientRect();

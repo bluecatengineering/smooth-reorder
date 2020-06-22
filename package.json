@@ -1,6 +1,6 @@
 {
   "name": "@bluecateng/smooth-reorder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Smooth list reordering in vanilla JS",
   "license": "ISC",
   "main": "index.mjs",
