@@ -1,4 +1,4 @@
-# @bluecateng/smooth-reorder [![GitHub license](https://img.shields.io/badge/license-ISC-blue.svg)](https://github.com/bluecatengineering/smooth-reorder/blob/use-circleci/LICENSE) [![npm version](https://img.shields.io/npm/v/@bluecateng/smooth-reorder.svg?style=flat)](https://www.npmjs.com/package/@bluecateng/smooth-reorder) [![CircleCI](https://circleci.com/gh/bluecatengineering/smooth-reorder.svg?style=shield)](https://circleci.com/gh/bluecatengineering/smooth-reorder)
+# @bluecateng/smooth-reorder [![GitHub license](https://img.shields.io/badge/license-ISC-blue.svg)](https://github.com/bluecatengineering/smooth-reorder/blob/master/LICENSE.md) [![npm version](https://img.shields.io/npm/v/@bluecateng/smooth-reorder.svg?style=flat)](https://www.npmjs.com/package/@bluecateng/smooth-reorder) [![CircleCI](https://circleci.com/gh/bluecatengineering/smooth-reorder.svg?style=shield)](https://circleci.com/gh/bluecatengineering/smooth-reorder)
 
 Allows reordering a list with either mouse dragging or keyboard using only vanilla JS.
 Elements are moved with CSS transitions where possible or with
