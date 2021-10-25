@@ -33,15 +33,15 @@
   },
   "devDependencies": {
     "@babel/cli": "^7.15.7",
-    "@babel/preset-env": "^7.15.6",
-    "@bluecateng/eslint-config-core": "^2.1.0",
+    "@babel/preset-env": "^7.15.8",
+    "@bluecateng/eslint-config-core": "^3.0.0",
     "@bluecateng/git-checks": "^1.0.0",
     "babel-preset-minify": "^0.5.1",
-    "eslint": "^7.32.0",
-    "husky": "^7.0.2",
-    "jest": "^27.2.4",
-    "jest-junit": "^12.3.0",
-    "lint-staged": "^11.1.2",
+    "eslint": "^8.1.0",
+    "husky": "^7.0.4",
+    "jest": "^27.3.1",
+    "jest-junit": "^13.0.0",
+    "lint-staged": "^11.2.4",
     "prettier": "^2.4.1"
   },
   "eslintConfig": {
