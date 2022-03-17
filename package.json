@@ -36,13 +36,14 @@
     "@babel/preset-env": "^7.15.8",
     "@bluecateng/eslint-config-core": "^3.0.0",
     "@bluecateng/git-checks": "^1.0.0",
+    "@bluecateng/prettier-config": "^1.0.0",
     "babel-preset-minify": "^0.5.1",
     "eslint": "^8.1.0",
     "husky": "^7.0.4",
     "jest": "^27.3.1",
     "jest-junit": "^13.0.0",
     "lint-staged": "^12.3.7",
-    "prettier": "^2.4.1"
+    "prettier": "^2.6.0"
   },
   "eslintConfig": {
     "extends": [
@@ -83,6 +84,7 @@
     "titleTemplate": "{title}",
     "ancestorSeparator": " / "
   },
+  "prettier": "@bluecateng/prettier-config",
   "lint-staged": {
     "*.js": [
       "eslint --fix --max-warnings 0 --no-ignore",
