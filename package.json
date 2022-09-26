@@ -1,14 +1,12 @@
 {
   "name": "@bluecateng/smooth-reorder",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Smooth list reordering in vanilla JS",
   "license": "ISC",
-  "main": "index.mjs",
+  "exports": "./dist/index.js",
   "types": "index.d.ts",
   "scripts": {
-    "build:es5": "BABEL_ENV=es5 babel -o index.es5 src",
-    "build:es6": "BABEL_ENV=es6 babel -o index.mjs src",
-    "build": "npm run build:es5 && npm run build:es6",
+    "build": "esbuild src/index.js --bundle --minify --format=esm --outfile=dist/index.js --external:@bluecateng/nano-spring",
     "test": "jest",
     "test-ci": "npm ci && jest --ci --silent --reporters=jest-junit",
     "prepack": "npm t && npm run build",
@@ -24,20 +22,18 @@
     "vanilla"
   ],
   "files": [
-    "index.es5",
-    "index.mjs",
+    "dist",
     "index.d.ts"
   ],
   "dependencies": {
-    "@bluecateng/nano-spring": "^1.0.3"
+    "@bluecateng/nano-spring": "^2.0.0"
   },
   "devDependencies": {
-    "@babel/cli": "^7.15.7",
     "@babel/preset-env": "^7.15.8",
     "@bluecateng/eslint-config-core": "^3.0.0",
     "@bluecateng/git-checks": "^1.0.0",
     "@bluecateng/prettier-config": "^1.0.0",
-    "babel-preset-minify": "^0.5.1",
+    "esbuild": "^0.15.9",
     "eslint": "^8.1.0",
     "husky": "^7.0.4",
     "jest": "^27.3.1",
