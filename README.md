@@ -10,6 +10,8 @@ in Medium has an example of how to implement accessibility.
 
 Size: 4,090 bytes before compression.
 
+:warning: Notice: the contents of this repository are now part of the [Pelagos monorepo](https://github.com/bluecatengineering/pelagos-packages), this repository is now archived.
+
 # Installation
 
 npm i -S @bluecateng/smooth-reorder
